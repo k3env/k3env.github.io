@@ -1,0 +1,33 @@
+[
+  {
+    "key": "mi-home",
+    "link": "/",
+    "title": "Home",
+    "visible": true
+  },
+  {
+    "key": "mi-about",
+    "link": "/about",
+    "title": "About me",
+    "visible": true
+  },
+  {
+    "key": "mi-projects",
+    "link": "/projects",
+    "title": "My projects",
+    "visible": true
+  },
+  {
+    "key": "mi-cv",
+    "link": "https://resume.io/r/9fADM87ed",
+    "title": "CV",
+    "visible": true,
+    "external": true
+  },
+  {
+    "key": "mi-portfolio",
+    "link": "/portfolio",
+    "title": "Portfolio",
+    "visible": true
+  }
+]

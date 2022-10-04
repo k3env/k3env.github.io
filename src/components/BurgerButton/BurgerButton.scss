@@ -1,0 +1,28 @@
+.burger {
+  width: 30px;
+  &::before,
+  &::after,
+  & > div {
+    background: var(--light);
+    content: '';
+    display: block;
+    height: 4px;
+    border-radius: 1px;
+    margin: 7px 0;
+    transition: 0.5s;
+  }
+  &.opened {
+    &::before {
+      transform: translateY(12px) rotate(135deg);
+    }
+    &::after {
+      transform: translateY(-12px) rotate(-135deg);
+    }
+    & > div {
+      transform: scale(0);
+    }
+  }
+}
+.icon {
+  transition: all 1s linear;
+}

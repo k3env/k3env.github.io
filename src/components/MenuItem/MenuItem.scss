@@ -1,0 +1,27 @@
+.menu-item {
+  cursor: default;
+  max-height: 40px;
+  height: 40px;
+  padding: 8px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-decoration: underline;
+  transition: background-color 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  flex: 1 0;
+
+  background-color: var(--dark);
+  color: var(--mid);
+  &:hover,
+  &:focus {
+    background-color: var(--accent);
+    color: var(--light);
+  }
+  &.active {
+    background-color: var(--mid);
+    color: var(--light);
+  }
+}
